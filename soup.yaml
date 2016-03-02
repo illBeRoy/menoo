@@ -1,0 +1,7 @@
+name: menoo
+author: Roy Sommer
+version: 0.0.1
+repository: git@github.com:illberoy/menoo
+dependencies:
+  blessings: 1.6.0
+  readchar: 0.7.0
