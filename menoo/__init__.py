@@ -11,7 +11,7 @@ class Menu(object):
     def __init__(self, title='', cursor='>>', fullscreen=False):
         self._terminal = blessings.Terminal()
 
-        self._title = title
+        self._title = title + '\n' if title else ''
         self._cursor = cursor
         self._fullscreen = fullscreen
 
