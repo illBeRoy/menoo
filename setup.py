@@ -3,11 +3,11 @@ from setuptools import setup, find_packages
 
 
 setup(name='menoo',
-      version='0.0.1',
+      version='0.0.2',
       description='a simple, deploy ready interactive cli menu',
       author='Roy Sommer',
       url='https://www.github.com/illberoy/menoo',
-      download_url='https://github.com/illberoy/menoo/tarball/0.0.1',
+      download_url='https://github.com/illberoy/menoo/tarball/0.0.2',
       packages=find_packages(),
       include_package_data=True,
       py_modules=['menoo'],
