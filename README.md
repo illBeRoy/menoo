@@ -24,11 +24,13 @@ menu.start()
 
 `Menu(title='', cursor='>>', fullscreen=False)` instantiates a new Menu object, but **does not** start it yet,
 with the following optional parameters:
+
 1. `title` - displayed above the list of options
 2. `cursor` - displayed near the selected option
 3. `fullscreen` - will clear screen prior to rendering the menu
 
 `Menu.add_option(text, handler)` adds a new entry to the list of options
+
 1. `text` - the text to display
 2. `handler` - a function which receives a single integer as its first positional argument, representing the index of
 the selected option. the function can vary between options.
